@@ -1,13 +1,13 @@
 class Khora < Formula
   desc "CLI for the Khora agent host"
   homepage "https://github.com/khoralabs/homebrew-tap"
-  version "0.1.12"
+  version "0.1.13"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/khoralabs/homebrew-tap/releases/download/khora-cli-v0.1.12/khora-darwin-arm64.tar.gz"
-      sha256 "ef2af590fd1e31c0a2307e7e1c42c9d5b20b0ab33351b95ccc36e3243f801146"
+      url "https://github.com/khoralabs/homebrew-tap/releases/download/khora-cli-v0.1.13/khora-darwin-arm64.tar.gz"
+      sha256 "b6e426e8e82f3a7fc1439b095c870b7e399a2ef4d640ad1fdbaad0539541b5ef"
     end
   end
 
