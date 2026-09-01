@@ -1,13 +1,13 @@
 class Khora < Formula
   desc "CLI for the Khora agent host"
   homepage "https://github.com/khoralabs/homebrew-tap"
-  version "0.1.14"
+  version "0.1.15"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/khoralabs/homebrew-tap/releases/download/khora-cli-v0.1.14/khora-darwin-arm64.tar.gz"
-      sha256 "426c1a58888f3720a700424b866f26844059a62cbd8997d97551055333fef373"
+      url "https://github.com/khoralabs/homebrew-tap/releases/download/khora-cli-v0.1.15/khora-darwin-arm64.tar.gz"
+      sha256 "f75f3aa05a48702b66963637ebaa8b7e5821ccaac5a5c9a816307885badd2fad"
     end
   end
 
@@ -24,6 +24,6 @@ class Khora < Formula
   end
 
   test do
-    assert_match "khora", shell_output("#{bin}/khora", 2)
+    assert_match "khora", shell_output("#{bin}/khora", 1)
   end
 end
